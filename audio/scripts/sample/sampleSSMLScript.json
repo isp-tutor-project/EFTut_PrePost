@@ -1,0 +1,24 @@
+{
+
+	"request": [
+    	{
+			"input": {"ssml": "<content>"},
+			"voice": {"name":"en-US-Wavenet-D",
+					"languageCode": "en-US", 
+					"ssmlGender": "MALE"},
+			"audioConfig": {"audioEncoding": "MP3"}
+		},
+		{
+			"input": {"ssml": "<content>"},
+			"voice": {"name":"en-US-Wavenet-F",
+					"languageCode": "en-US", 
+					"ssmlGender": "FEMALE"},
+			"audioConfig": {"audioEncoding": "MP3"}
+		}
+	],
+
+    "utterance": [
+		["SampleFileName_0001", "<speak>There are multiple voice properties which can be modified using SSML</speak>"], 
+		["SampleFileName_0002", "<speak>For Example:</speak>"]
+    ]
+}
